@@ -1,6 +1,23 @@
+/* TAG DI FORMATTAZIONE  */
+
 body {
     margin: 0px;
 }
+
+nav {
+    margin-left: 10%;
+}
+
+body > * {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header { 
+    margin: 0px;
+}
+
+/* TAG DI CLASSE E SELETTORI*/
 
 .pattern {
     background-color: #4ea0ff ;
@@ -14,4 +31,26 @@ body {
     margin-left: 10%;
     padding-bottom: 20px ;
     padding-top: 50px;
+}
+
+nav > * {
+    font-family: Georgia, serif;
+}
+
+.title {
+    margin: 20px auto 0px auto;    
+    font-size: 36pt;
+}
+
+.writer {
+    font-size: 24px;
+    color: gray;
+    margin-top: 0px;
+    margin-bottom: 0px ;
+}
+
+.data {
+    font-size: 16px;
+    color: gray;
+    margin-top: 0px;
 }
