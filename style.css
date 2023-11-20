@@ -17,6 +17,15 @@ header {
     margin: 0px;
 }
 
+table {
+    text-align: left;
+}
+
+thead {
+    background-color: #20a9e5 ;
+}
+
+
 /* TAG DI CLASSE E SELETTORI*/
 
 .pattern {
@@ -82,4 +91,16 @@ nav > * {
 .list {
     margin-left: 0px;
     padding-left: 20px;
+}
+
+.quartertb {
+    width: 25%;
+}
+
+.halftb {
+    width: 50%;
+}
+
+.odd {
+    background-color: #b1e5f2;
 }
