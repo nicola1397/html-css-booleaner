@@ -25,6 +25,10 @@ thead {
     background-color: #20a9e5 ;
 }
 
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 /* TAG DI CLASSE E SELETTORI*/
 
@@ -103,4 +107,29 @@ nav > * {
 
 .odd {
     background-color: #b1e5f2;
+}
+
+footer > * {
+    font-family: Georgia, serif;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 24pt;
+    background-size: contain;
+    font-weight: bold;
+}
+
+.bg1 {
+    background-image: url(./img/monitor.jpg);
+    height: 300px;
+   }
+
+.bg2 {
+    background-image: url(./img/graph.jpg);   
+    height: 300px;
+    }
+
+.ontop {
+    position:relative;
+    top: 10px;
+    left: 10px;
 }
