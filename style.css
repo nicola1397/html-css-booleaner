@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+}
+
+.pattern {
+    background-color: #4ea0ff ;
+    background-image: url(./img/pattern.png);
+    background-repeat: repeat-x;
+    background-size: auto 300px;
+  }
+
+.logo {
+    width: 300px ;
+    margin-left: 10%;
+    padding-bottom: 20px ;
+    padding-top: 50px;
+}
