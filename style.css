@@ -54,3 +54,19 @@ nav > * {
     color: gray;
     margin-top: 0px;
 }
+ 
+.imgcontainer {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.foto {
+    width: 48%;
+}
+
+.caption {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
