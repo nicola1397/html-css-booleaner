@@ -70,11 +70,16 @@ nav > * {
     margin-bottom: 0px;
 }
 
-.article {
+.font > * {
     font-family: Georgia, serif;
     font-size: 18pt;
 }
 
 .highlight {
     background-color: yellow;
+}
+
+.list {
+    margin-left: 0px;
+    padding-left: 20px;
 }
