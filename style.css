@@ -1,4 +1,4 @@
-/* TAG DI FORMATTAZIONE  */
+/* TAG BASE */
 
 body {
     margin: 0px;
@@ -32,6 +32,7 @@ footer {
 
 /* TAG DI CLASSE E SELETTORI*/
 
+/* Formattazione banner */
 .pattern {
     background-color: #4ea0ff ;
     background-image: url(./img/pattern.png);
@@ -39,6 +40,7 @@ footer {
     background-size: auto 300px;
   }
 
+  /* Formattazione logo */
 .logo {
     width: 300px ;
     margin-left: 10%;
@@ -46,6 +48,7 @@ footer {
     padding-top: 50px;
 }
 
+/* Formattazione Titoli */
 nav > * {
     font-family: Georgia, serif;
 }
@@ -68,6 +71,7 @@ nav > * {
     margin-top: 0px;
 }
  
+/* Contenitore immagini */
 .imgcontainer {
     display: flex;
     margin-top: 20px;
@@ -83,20 +87,24 @@ nav > * {
     margin-bottom: 0px;
 }
 
+/* Formattazione testo articolo */
 .font > * {
     font-family: Georgia, serif;
     font-size: 18pt;
 }
 
+/* Formattazione testo evidenziato */
 .highlight {
     background-color: yellow;
 }
 
+/* Formattazione elenco */
 .list {
     margin-left: 0px;
     padding-left: 20px;
 }
 
+/* Formattazione tabella  */
 .quartertb {
     width: 25%;
 }
@@ -105,10 +113,12 @@ nav > * {
     width: 50%;
 }
 
+/* Righe colorate tabella */
 .odd {
     background-color: #b1e5f2;
 }
 
+/* Formattazione footer */
 footer > * {
     font-family: Georgia, serif;
     background-repeat: no-repeat;
@@ -118,6 +128,7 @@ footer > * {
     font-weight: bold;
 }
 
+/* Div Footer con immagini  */
 .bg1 {
     background-image: url(./img/monitor.jpg);
     height: 300px;
@@ -128,6 +139,7 @@ footer > * {
     height: 300px;
     }
 
+/* Testo su immagini footer */
 .ontop {
     position:relative;
     top: 10px;
